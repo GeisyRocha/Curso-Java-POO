@@ -1,3 +1,6 @@
+/* Caso a soma dos valores informados for igual a esse número, 
+informe ao usuário que ele resolveu o enigma.valor=42 */
+
 import java.util.Scanner;
 public class Enigma{
 	private int valor1;
@@ -21,7 +24,7 @@ public class Enigma{
 	public void DesvendaEnigma(){
 		
         if(this.getValor1() + this.getValor2()==42 ){
-            System.out.printf("A soma de "+this.getValor1()+ " e " +this.getValor2()+" eh equivalente ao enigma do universo 42");
+            System.out.printf("A soma de "+this.getValor1()+ " e " +this.getValor2()+" eh equivalente ao enigma do universo 42\nSystem Down");
         }else{
             System.out.printf("System Down");
         }

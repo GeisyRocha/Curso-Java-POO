@@ -13,9 +13,9 @@ public class NumeroImpar{
 	public void DescobreImpar(){
 		
         if(this.getValorEscolhido()%2 != 0 ){
-            System.out.printf("Numero " +this.getValorEscolhido()+ " nao eh par\nF1m d0 Program4 ");
+            System.out.printf("Numero "+this.getValorEscolhido()+" nao eh par\nF1m d0 Pr0gr4m4");
         }else{
-            System.out.printf("F1m d0 Program4");
+            System.out.printf("F1m d0 Pr0gr4m4");
         }
 	}
 	public static void main(String args[]){

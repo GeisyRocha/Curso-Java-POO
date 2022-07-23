@@ -1,4 +1,4 @@
-
+//Dado dois números inteiros, você deve informar ao usuário qual deles é o menor
 import java.util.Scanner;
 public class Menor{
     private int numero1;
